@@ -7,6 +7,42 @@ require("./bot/utils")
 local f = assert(io.popen('/usr/bin/git describe --tags', 'r'))
 VERSION = assert(f:read('*a'))
 f:close()
+package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
+  ..';.luarocks/share/lua/5.2/?/init.lua'
+package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
+
+require("./bot/utils")
+
+local f = assert(io.popen('/usr/bin/git describe --tags', 'r'))
+VERSION = assert(f:read('*a'))
+f:close()
+package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
+  ..';.luarocks/share/lua/5.2/?/init.lua'
+package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
+
+require("./bot/utils")
+
+local f = assert(io.popen('/usr/bin/git describe --tags', 'r'))
+VERSION = assert(f:read('*a'))
+f:close()
+package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
+  ..';.luarocks/share/lua/5.2/?/init.lua'
+package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
+
+require("./bot/utils")
+
+local f = assert(io.popen('/usr/bin/git describe --tags', 'r'))
+VERSION = assert(f:read('*a'))
+f:close()
+package.path = package.path .. ';.luarocks/share/lua/5.2/?.lua'
+  ..';.luarocks/share/lua/5.2/?/init.lua'
+package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
+
+require("./bot/utils")
+
+local f = assert(io.popen('/usr/bin/git describe --tags', 'r'))
+VERSION = assert(f:read('*a'))
+f:close()
 
 -- This function is called when tg receive a msg
 function on_msg_receive (msg)
@@ -35,8 +71,12 @@ function on_msg_receive (msg)
 end
 
 function ok_cb(extra, success, result)
-
-end
+  https://github.com/aqrab/alishah.git
+endfunction ok_cb(extra, success, result)
+https://github.com/aqrab/alishah.gitfunction ok_cb(extra, success, result)
+https://github.com/aqrab/alishah.gitfunction ok_cb(extra, success, result)
+https://github.com/aqrab/alishah.gitfunction ok_cb(extra, success, result)
+https://github.com/aqrab/alishah.git
 
 function on_binlog_replay_end()
   started = true
